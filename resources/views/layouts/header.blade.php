@@ -92,16 +92,16 @@
                         <div class="social-inner">
                             <ul>
                                 <li>
-                                    <a href="#">Facebook</a>
+                                    <a href="https://www.facebook.com/kamlesh.raghuwanshi.98?mibextid=ZbWKwL" target="_blank">Facebook</a>
                                 </li>
                                 <li>
-                                    <a href="#">Twitter</a>
+                                    <a href="https://x.com/raghukamlesh?t=JHKZiaP5QNgvn3GmbLqZkQ&s=08" target="_blank">Twitter</a>
                                 </li>
                                 <li>
-                                    <a href="#">Linkedin</a>
+                                    <a href="https://www.linkedin.com/in/dr-kamlesh-kumar-raghuvanshi-10355222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a>
                                 </li>
                                 <li>
-                                    <a href="#">Instagram</a>
+                                    <a href="https://www.instagram.com/kamlesh_raghuvanshi_lup?igsh=dDFtbDRub29neGpl" target="_blank">Instagram</a>
                                 </li>
                             </ul>
                         </div>
@@ -139,7 +139,7 @@
                                     </div>
                                     <div class="discription">
                                         <p>Our Phone</p>
-                                        <span>+25 (2692) 12-24586</span>
+                                        <span>+91 9810298704</span>
                                     </div>
                                 </div>
                                 <!-- single address end -->

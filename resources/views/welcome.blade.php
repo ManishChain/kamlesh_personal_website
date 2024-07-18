@@ -66,9 +66,9 @@
                         </h6>
                         <div class="social-wrapper-two">
                             <ul class="social-area">
-                                <li data-sal-delay="150" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li data-sal-delay="250" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li data-sal-delay="350" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li data-sal-delay="150" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="https://www.facebook.com/kamlesh.raghuwanshi.98?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+                                <li data-sal-delay="250" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="https://x.com/raghukamlesh?t=JHKZiaP5QNgvn3GmbLqZkQ&s=08"><i class="fab fa-twitter"></i></a></li>
+                                <li data-sal-delay="350" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="https://www.linkedin.com/in/dr-kamlesh-kumar-raghuvanshi-10355222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li data-sal-delay="450" data-sal="slide-up" data-sal-duration="800" class="sal-animate"><a href="#"><i class="fab fa-skype"></i></a></li>
                             </ul>
                         </div>
@@ -142,9 +142,9 @@
                             <div class="social-area-wrapper">
                                 <ul>
                                     <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.facebook.com/kamlesh.raghuwanshi.98?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://x.com/raghukamlesh?t=JHKZiaP5QNgvn3GmbLqZkQ&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/in/dr-kamlesh-kumar-raghuvanshi-10355222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#"><i class="fab fa-skype"></i></a>
                                     </li>
                                 </ul>

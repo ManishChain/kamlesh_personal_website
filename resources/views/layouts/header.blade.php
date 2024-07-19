@@ -29,7 +29,7 @@
                         <ul id="nav">
                             <li class="current"><a href="#home">Home</a></li>
                             <li class=""><a href="#about">About</a></li>
-                            <li class=""><a href="#service">Service</a></li>
+                            <li class=""><a href="#service">WorkAreas</a></li>
                             <li class=""><a href="#portfolio">Portfolio</a></li>
                             <li class=""><a href="#contact">Contact</a></li>
                         </ul>
@@ -39,10 +39,10 @@
                     <div class="open-h2-menu-area">
                         <div class="contact-area">
                             <div class="number">
-                                <a href="#">+256 3221 21456</a>
+                                <a href="#">+919810298704</a>
                             </div>
                             <div class="email ml--40">
-                                <a href="#">inside@mazin.com</a>
+                                <a href="#">raghukamlesh@gmail.com</a>
                             </div>
                         </div>
                         <a id="menu-btn" href="#" class="ml--40" onclick="event.preventDefault();">
@@ -64,7 +64,7 @@
         </div>
         <div class="logo-area">
             <a href="#" class="thumbnail">
-                <img src="assets/images/logo/mazin-03-1.svg" alt="logo-images">
+                <img src="assets/images/logo/The-Leader.svg" alt="logo-images">
             </a>
         </div>
     </header>
@@ -78,7 +78,7 @@
                 <div class="col-lg-3">
                     <div class="footer-four-left footer-single-wized ptb--100 ptb_sm--50">
                         <a class="logo" href="index-three-1.html">
-                            <img src="assets/images/logo/mazin-03-white-1.svg" alt="logo-area">
+                            <img src="assets/images/logo/The-Leader.svg" alt="logo-area">
                         </a>
                         <p class="disc">
                             Lorem ipsum dmet consec tetur adipisc elit platea suscipit habitant tellus euism is arcu
@@ -128,7 +128,7 @@
                                     </div>
                                     <div class="discription">
                                         <p>Our Email</p>
-                                        <span>pixxi.me@gmail.com</span>
+                                        <span>raghukamlesh@gmail.com</span>
                                     </div>
                                 </div>
                                 <!-- single address end -->
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <!-- footer end area start -->
-                <div class="col-lg-3 ptb--100">
+                <!-- <div class="col-lg-3 ptb--100">
                     <div class="footer-two-single-gallery-area three">
                         <h5 class="title">Instagram Posts</h5>
                         <div class="gallery-image">
@@ -172,7 +172,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- footer end area end -->
             </div>
         </div>

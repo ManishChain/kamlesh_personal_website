@@ -58,7 +58,7 @@
                         <h6 class="title">
                             E-mail:
                         </h6>
-                        <a href="#">info.example@gmail.com</a>
+                        <a href="#">raghukamlesh@gmail.com</a>
                     </div>
                     <div class="follow single">
                         <h6 class="title">
@@ -89,18 +89,15 @@
                     <div class="banner-three-wrapper">
                         <div class="left-area">
                             <h1 class="title quote">
-                                Meet Man Who Care <br>
-                                About <span>The City</span>
+                            Meet Kamlesh, 
+                               Who<br> Cares About <span>Everyone</span>
                             </h1>
                             <div class="content">
                                 <p class="disc">
-                                    Laoreet accumsan viverra aptent suscipit leo metus dmaecenas turpis, <br> rhoncus
-                                    tristique
-                                    facilisi torquent blandit inceptos
-                                </p>
+                                "Welcome to my personal website, where my journey unfolds as a Politician, Leader, Social Worker, Entrepreneur, Professor, and Mentor. Discover how each role shapes my commitment to serving and inspiring others."                                </p>
                                 <div class="rts-button-area text-anim">
                                     <a href="#service" class="rts-btn btn-main-3 smooth-scroll-1">
-                                        My Services
+                                        My Workareas
                                     </a>
                                 </div>
                             </div>
@@ -169,7 +166,7 @@
                         What We Do
                     </span>
                     <h2 class="title">
-                        Our Included <span>Service</span>
+                        Our  <span>Woekareas</span>
                     </h2>
                 </div>
             </div>

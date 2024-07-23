@@ -81,8 +81,7 @@
                             <img src="assets/images/logo/The-Leader.svg" alt="logo-area">
                         </a>
                         <p class="disc">
-                            Lorem ipsum dmet consec tetur adipisc elit platea suscipit habitant tellus euism is arcu
-                            curabitur magna neque
+                        Dr. Kamlesh Kumar Raghuvanshi, with over 11 years of experience in the IT industry and a specialization in the Telecom Billing Domain, is dedicated to advancing knowledge and innovation in computer science. 
                         </p>
                         <a href="#contact" class="rts-btn btn-main-3 smooth-scroll-1">Hire Me Now</a>
                     </div>
@@ -107,7 +106,7 @@
                         </div>
                         <div class="footer-three-mid footer-single-wized ptb--100 ptb_sm--30">
                             <h5 class="title">
-                                Conatact Us
+                                Contact Us
                             </h5>
                             <div class="body contact-area">
                                 <!-- single address -->
@@ -117,7 +116,7 @@
                                     </div>
                                     <div class="discription">
                                         <p>Our Address</p>
-                                        <span>25 Division SY, 1002, USA</span>
+                                        <span>1662/2, Gali No.17,<br> Govind Puri, Kalkaji,<br>New Delhi-110019</span>
                                     </div>
                                 </div>
                                 <!-- single address end -->
@@ -183,7 +182,7 @@
                         <div class="inner">
                             <div class="left">
                                 <p class="disc">
-                                    © 2023 Pixxi | All rights reserved by <a href="#">Reacthemes</a>
+                                    © 2023 Pixxi | All rights reserved by <a href="https://msell.in/">Manacle Technologies</a>
                                 </p>
                             </div>
                             <div class="right">

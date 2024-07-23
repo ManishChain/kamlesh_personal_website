@@ -27,10 +27,10 @@
                                 <a href="#about">About Us</a>
                             </li>
                             <li class="three">
-                                <a href="#service">Services</a>
+                                <a href="#service">Work Area</a>
                             </li>
-                            <li class="four">
-                                <a href="#works">Works</a>
+                          <li class="four">
+                                <a href="#test">Testimonials</a>
                             </li>
                             <li class="five">
                                 <a href="#blog">Blog</a>
@@ -52,7 +52,7 @@
                         <h6 class="title">
                             ADDRESS:
                         </h6>
-                        <a href="#">121 King Street, gulsam Victoria 3000, USA.</a>
+                        <a href="#">1662/2, Gali No.17,Govind Puri, Kalkaji,New Delhi-110019</a>
                     </div>
                     <div class="mail single">
                         <h6 class="title">
@@ -97,7 +97,7 @@
                                 "Welcome to my personal website, where my journey unfolds as a Politician, Leader, Social Worker, Entrepreneur, Professor, and Mentor. Discover how each role shapes my commitment to serving and inspiring others."                                </p>
                                 <div class="rts-button-area text-anim">
                                     <a href="#workarea" class="rts-btn btn-main-3 smooth-scroll-1">
-                                        My Workareas
+                                        My Work Areas
                                     </a>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                         <div class="download-btn" id="workarea">
-                            <a href="#" class="rts-btn btn-main-3-alta">Download CV</a>s
+                            <a href="#" class="rts-btn btn-main-3-alta">Download CV</a>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                         What We Do
                     </span>
                     <h2 class="title">
-                        Our  <span>WorkAreas</span>
+                        Our  <span>Work Areas</span>
                     </h2>
                 </div>
             </div>
@@ -198,7 +198,7 @@
                                 Politices BJP
                             </h5>
                             <p class="disc" style="text-align: justify;">
-                           Dr. Kamlesh kumar Reghuwanshi is an active and dedicated member of the Bharatiya Janata Party (BJP), contributing significantly to its initiatives and activities. His involvement with the party reflects his commitment to public service and the betterment of society through political engagement.
+                           Dr. Kamlesh kumar Reghuvanshi is an active and dedicated member of the Bharatiya Janata Party (BJP), contributing significantly to its initiatives and activities. His involvement with the party reflects his commitment to public service and the betterment of society through political engagement.
                             </p>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                                RSS
                             </h5>
                             <p class="disc"  style="text-align: justify;">
-                            Dr. Kamlesh kumar Reghuwanshi is a dedicated member of the Rashtriya Swayamsevak Sangh (RSS), playing a significant role in its activities and initiatives. His involvement reflects a deep commitment to the organization's mission of promoting Hindu cultural values and contributing to national unity.
+                            Dr. Kamlesh kumar Reghuvanshi is a dedicated member of the Rashtriya Swayamsevak Sangh (RSS), playing a significant role in its activities and initiatives. His involvement reflects a deep commitment to the organization's mission of promoting Hindu cultural values and contributing to national unity.
                             </p>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
                                 IBM (Technologies)
                             </h5>
                             <p class="disc"  style="text-align: justify;">
-                            Dr. Kamlesh kumar Reghuwanshi  has extensive experience with IBM’s suite of technologies, including artificial intelligence, cloud computing, data analytics, and blockchain. His deep understanding of these solutions enables him to implement and optimize IBM technologies effectively.
+                            Dr. Kamlesh kumar Reghuvanshi  has extensive experience with IBM’s suite of technologies, including artificial intelligence, cloud computing, data analytics, and blockchain. His deep understanding of these solutions enables him to implement and optimize IBM technologies effectively.
                             </p>
                         </div>
                     </div>
@@ -324,7 +324,7 @@
                                                             <div class="details">
                                                                 <span>Name</span>
                                                                 <a href="#" class="disc" style="font-size: 14px;">
-                                                                   Dr.Kamlesh kumar Reghuwanshi
+                                                                   Dr.Kamlesh kumar Reghuvanshi
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -360,7 +360,8 @@
                                                             <div class="details">
                                                                 <span>Address</span>
                                                                 <a href="#" class="disc" style="font-size: 14px;">
-                                                                    12 SJ Lane, Berlin
+                                                                1662/2, Gali No.17,Govind Puri, Kalkaji,
+                                                                New Delhi-110019
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -394,33 +395,33 @@
                                             <div class="content-main">
                                                 <!-- single award area -->
                                                 <div class="single-award-area-marketer">
-                                                    <h6 class="title">Council on Foreign Relations</h6>
+                                                    <h6 class="title">Excellence in IT Innovation Award</h6>
                                                     <p class="disc">
-                                                        Council on Foreign Relations of the year 2023. Phasellus eleifend tempor dolor, in vestibulum ante semper et.
+                                                    Recognizes Dr. Kamlesh Kumar Raghuwanshi pioneering work in revolutionizing telecom billing systems through innovative solutions.
                                                     </p>
                                                 </div>
                                                 <!-- single award area end -->
                                                 <!-- single award area -->
                                                 <div class="single-award-area-marketer">
-                                                    <h6 class="title">Award of Innovation </h6>
+                                                    <h6 class="title"> Lifetime Achievement Award in Computer Science</h6>
                                                     <p class="disc">
-                                                        Award of Innovation 2023. Phasellus eleifend tempor dolor, in vestibulum ante semper et.
+                                                    Celebrates his lifelong dedication to research and excellence in IT education.
                                                     </p>
                                                 </div>
                                                 <!-- single award area end -->
                                                 <!-- single award area -->
                                                 <div class="single-award-area-marketer">
-                                                    <h6 class="title">Heroic Act Award </h6>
+                                                    <h6 class="title"> IT Leadership Award </h6>
                                                     <p class="disc">
-                                                        Heroic Act Award 2023. Phasellus eleifend tempor dolor, in vestibulum ante semper et.
+                                                    Presented for exemplary leadership in the IT industry, this award highlights Dr. Kamlesh Kumar Raghuwanshi  ability to lead and inspire teams to achieve exceptional results. 
                                                     </p>
                                                 </div>
                                                 <!-- single award area end -->
                                                 <!-- single award area -->
                                                 <div class="single-award-area-marketer">
-                                                    <h6 class="title">Outstanding Rookie Award</h6>
+                                                    <h6 class="title">Best Professor Award</h6>
                                                     <p class="disc">
-                                                        Outstanding Rookie Award 2023. Phasellus eleifend tempor dolor, in vestibulum ante semper et.
+                                                    Awarded by a renowned educational institution, this accolade acknowledges Dr. Kamlesh Kumar Raghuvanshi's excellence in teaching and his significant impact on shaping future IT professionals. 
                                                     </p>
                                                 </div>
                                                 <!-- single award area end -->
@@ -439,7 +440,7 @@
                                                 <span>Certificate of</span>
                                                 <h6 class="title">11+ Years of Experience in IT Industry</h6>
                                                 <p class="disc">
-                                                Dr. Raghuvanshi has over 11 years of professional experience in the IT industry, specializing in the Telecom Billing Domain.
+                                                Dr.Kamlesh Kumar Raghuvanshi has over 11 years of professional experience in the IT industry, specializing in the Telecom Billing Domain.
                                             </div>
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
@@ -451,7 +452,7 @@
                                                 <span>Certificate of</span>
                                                 <h6 class="title">Green Field Implementation of Kenan FX 2.0</h6>
                                                 <p class="disc">
-                                                Dr. Raghuvanshi has been involved in the green field implementation of Kenan FX 2.0, demonstrating his capability in handling large-scale projects.                                               </p>
+                                                Dr.Kamlesh Kumar Raghuvanshi has been involved in the green field implementation of Kenan FX 2.0, demonstrating his capability in handling large-scale projects.                                               </p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
@@ -466,7 +467,7 @@
                                                 <span>Certificate of</span>
                                                 <h6 class="title">Integration with Various External Systems</h6>
                                                 <p class="disc">
-                                                Dr. Raghuvanshi has worked extensively on integrating Kenan FX with various external systems like CRM, Payment Systems, NMS, and KIOSK using Kenan API-TS.
+                                                Dr.Kamlesh Kumar Raghuvanshi has worked extensively on integrating Kenan FX with various external systems like CRM, Payment Systems, NMS, and KIOSK using Kenan API-TS.
                                                 </p>
                                             </div>
                                             <div class="single-univercity-exp-4">
@@ -686,7 +687,7 @@
                             <!-- single slider end -->
 
                         </div>
-                        <div class="swiper-button-wrapper-project-ho-3">
+                        <div class="swiper-button-wrapper-project-ho-3"  >
                             <div class="swiper-button-next testimonials-slider-next-btn"></div>
                             <div class="swiper-button-prev testimonials-slider-prev-btn"></div>
                         </div>
@@ -699,7 +700,7 @@
     <!-- projects area end -->
 
     <!-- rts clients feedback area start -->
-    <div class="rts-client-feedback rts-section-gapBottom pt_sm--60">
+    <div class="rts-client-feedback rts-section-gapBottom pt_sm--60" id="test" >
         <div class="container">
             <div class="row">
                 <div class="title-area-h3 text-center">
@@ -880,7 +881,8 @@
                             </div>
                             <a href="blog-details-1.html">
                                 <h5 class="title">
-                                    A simple plan to fix our economy
+                                    A simple plan to fix our 
+                                     economy
                                 </h5>
                             </a>
                             <a href="blog-details-1.html" class="rts-btn btn-main-3">

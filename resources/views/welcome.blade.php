@@ -96,7 +96,7 @@
                                 <p class="disc">
                                 "Welcome to my personal website, where my journey unfolds as a Politician, Leader, Social Worker, Entrepreneur, Professor, and Mentor. Discover how each role shapes my commitment to serving and inspiring others."                                </p>
                                 <div class="rts-button-area text-anim">
-                                    <a href="#service" class="rts-btn btn-main-3 smooth-scroll-1">
+                                    <a href="#workarea" class="rts-btn btn-main-3 smooth-scroll-1">
                                         My Workareas
                                     </a>
                                 </div>
@@ -119,15 +119,15 @@
     <div class="marque-text-area">
         <div class="marquee_text">
             <div>
-                <div class="js-marquee" style="margin-right: 50px; float: left;">Work For The People</div>
-                <div class="js-marquee" style="margin-right: 50px; float: left;">Work For The People</div>
+                <div class="js-marquee" style="margin-right: 50px; float: left;">Politician Leader Social Worker Entrepreneur Professor  Mentor</div>
+                <div class="js-marquee" style="margin-right: 50px; float: left;">Politician Leader Social Worker Entrepreneur Professor  Mentor</div>
             </div>
         </div>
     </div>
     <!-- marquery end -->
 
     <!-- cv area downlaod -->
-    <div class="rts-download-cv-area pt--60" id="about">
+    <div class="rts-download-cv-area pt--60">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -147,8 +147,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="download-btn">
-                            <a href="#" class="rts-btn btn-main-3-alta">Download CV</a>
+                        <div class="download-btn" id="workarea">
+                            <a href="#" class="rts-btn btn-main-3-alta">Download CV</a>s
                         </div>
                     </div>
                 </div>
@@ -161,12 +161,12 @@
     <div class="rts-service-h4 rts-section-gap" id="service">
         <div class="container">
             <div class="row">
-                <div class="title-area-h3 text-center">
+                <div  class="title-area-h3 text-center" >
                     <span class="pre-title">
                         What We Do
                     </span>
                     <h2 class="title">
-                        Our  <span>Woekareas</span>
+                        Our  <span>WorkAreas</span>
                     </h2>
                 </div>
             </div>
@@ -179,12 +179,10 @@
                                 <img src="assets/images/skill/icon/10-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Democracy
+                                NGO
                             </h5>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet consectetur elit sceleri sque, dis non rutrum ad mattis hacle
-                                sem pulvinar potenti taciti.
-                            </p>
+                            <p class="disc" style="text-align: justify;">
+                            Lokutthan Foundation is a prominent non-governmental organization dedicated to fostering social development and upliftment. The foundation aims to address the needs of underprivileged and marginalized communities through a range of impactful programs.                            </p>
                         </div>
                     </div>
                 </div>
@@ -197,11 +195,10 @@
                                 <img src="assets/images/skill/icon/11-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Family
+                                Politices BJP
                             </h5>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet consectetur elit sceleri sque, dis non rutrum ad mattis hacle
-                                sem pulvinar potenti taciti.
+                            <p class="disc" style="text-align: justify;">
+                           Dr. Kamlesh kumar Reghuwanshi is an active and dedicated member of the Bharatiya Janata Party (BJP), contributing significantly to its initiatives and activities. His involvement with the party reflects his commitment to public service and the betterment of society through political engagement.
                             </p>
                         </div>
                     </div>
@@ -215,11 +212,10 @@
                                 <img src="assets/images/skill/icon/12-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Ecology
+                               RSS
                             </h5>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet consectetur elit sceleri sque, dis non rutrum ad mattis hacle
-                                sem pulvinar potenti taciti.
+                            <p class="disc"  style="text-align: justify;">
+                            Dr. Kamlesh kumar Reghuwanshi is a dedicated member of the Rashtriya Swayamsevak Sangh (RSS), playing a significant role in its activities and initiatives. His involvement reflects a deep commitment to the organization's mission of promoting Hindu cultural values and contributing to national unity.
                             </p>
                         </div>
                     </div>
@@ -233,11 +229,10 @@
                                 <img src="assets/images/skill/icon/13-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Social Care
+                               Manacle Mentor
                             </h5>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet consectetur elit sceleri sque, dis non rutrum ad mattis hacle
-                                sem pulvinar potenti taciti.
+                            <p class="disc"  style="text-align: justify;">
+                            The Esteemed Mentor serves as a respected guide at Manacle, a dynamic company focused on innovative solutions and business growth. Their mentorship is instrumental in guiding the company's strategic direction and fostering professional development within the organization.
                             </p>
                         </div>
                     </div>
@@ -251,29 +246,27 @@
                                 <img src="assets/images/skill/icon/14-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Policy
+                                IBM (Technologies)
                             </h5>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet consectetur elit sceleri sque, dis non rutrum ad mattis hacle
-                                sem pulvinar potenti taciti.
+                            <p class="disc"  style="text-align: justify;">
+                            Dr. Kamlesh kumar Reghuwanshi  has extensive experience with IBM’s suite of technologies, including artificial intelligence, cloud computing, data analytics, and blockchain. His deep understanding of these solutions enables him to implement and optimize IBM technologies effectively.
                             </p>
                         </div>
                     </div>
                 </div>
                 <!-- single service home three end -->
                 <!-- single service home three -->
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12" >
                     <div class="single-service-h3">
                         <div class="inner-content">
                             <div class="logo">
                                 <img src="assets/images/skill/icon/15-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Education
+                               Professor(CS)
                             </h5>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet consectetur elit sceleri sque, dis non rutrum ad mattis hacle
-                                sem pulvinar potenti taciti.
+                            <p class="disc" style="text-align: justify;">
+                            The Esteemed Professor contributes to the development and enhancement of the college’s curriculum. Their insights help ensure that the courses are up-to-date with industry trends and academic standards, preparing students for future careers.
                             </p>
                         </div>
                     </div>
@@ -285,11 +278,11 @@
     <!-- rts service area end -->
 
     <!-- rts about kiills area -->
-    <div class="rts-skill-area about-h3 rts-section-gapBottom" id="about">
+    <div class="rts-skill-area about-h3 rts-section-gapBottom" >
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="tab-area-main-wrapper text-anim">
+                    <div class="tab-area-main-wrapper text-anim" id="about">
 
                         <!-- tab area start -->
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -317,12 +310,10 @@
                                         <div class="col-lg-6 pb_sm--20">
                                             <div class="content-main">
                                                 <h2 class="title">
-                                                    Ideological Leader For <br> Youth Generation
+                                                The Leader For Youth Generation
                                                 </h2>
                                                 <p class="about-disc">
-                                                    Viverra quisi integer portitor hac morbi nostra habitant varius
-                                                    tempor felissoc squaptent vestibulum lectus vel acmsan risus litora
-                                                    nibh velit pulvinar ornare porttitor consequat rutrum interdum
+                                                Dr. Kamlesh Kumar Raghuvanshi is a distinguished academic and professional, holding a Doctor of Philosophy (Ph.D.) in Computer Science. With a profound expertise in his field, Dr. Raghuvanshi has made significant contributions to both academia and industry.
                                                 </p>
                                                 <div class="about-contact-h2">
                                                     <div class="first-line">
@@ -332,8 +323,8 @@
                                                             </div>
                                                             <div class="details">
                                                                 <span>Name</span>
-                                                                <a href="#" class="disc">
-                                                                    Thomas Smith
+                                                                <a href="#" class="disc" style="font-size: 14px;">
+                                                                   Dr.Kamlesh kumar Reghuwanshi
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -343,8 +334,9 @@
                                                             </div>
                                                             <div class="details">
                                                                 <span>Phone Number</span>
-                                                                <a href="#" class="disc">
-                                                                    +256 31548 325
+                                                                <a href="#" class="disc" style="font-size: 14px;">
+
+                                                                +919810298704
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -356,8 +348,8 @@
                                                             </div>
                                                             <div class="details">
                                                                 <span>Email Address</span>
-                                                                <a href="#" class="disc">
-                                                                    info@example.com
+                                                                <a href="#" class="disc" style="font-size: 14px;">
+                                                                raghukamlesh@gmail.com 
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -367,7 +359,7 @@
                                                             </div>
                                                             <div class="details">
                                                                 <span>Address</span>
-                                                                <a href="#" class="disc">
+                                                                <a href="#" class="disc" style="font-size: 14px;">
                                                                     12 SJ Lane, Berlin
                                                                 </a>
                                                             </div>
@@ -379,7 +371,7 @@
                                         <div class="col-lg-6">
                                             <!-- single tab content hear -->
                                             <div class="thumbnail">
-                                                <img src="assets/images/about/07-1.jpg" alt="About_image">
+                                                <img src="assets/images/image-needed.png" alt="About_image">
                                             </div>
                                             <!-- single tab content hear End -->
                                         </div>
@@ -394,7 +386,7 @@
                                         <div class="col-lg-6">
                                             <!-- single tab content hear -->
                                             <div class="thumbnail">
-                                                <img src="assets/images/skill/01-1.webp" alt="About_image">
+                                                <img src="assets/images/image-needed.png" alt="About_image">
                                             </div>
                                             <!-- single tab content hear End -->
                                         </div>
@@ -445,47 +437,43 @@
                                         <div class="col-lg-6">
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
-                                                <h6 class="title">USA Community Collage</h6>
+                                                <h6 class="title">11+ Years of Experience in IT Industry</h6>
                                                 <p class="disc">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
-                                                </p>
+                                                Dr. Raghuvanshi has over 11 years of professional experience in the IT industry, specializing in the Telecom Billing Domain.
                                             </div>
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
-                                                <h6 class="title">Diploma & Course</h6>
+                                                <h6 class="title">ComverseOne PCAT Expert:</h6>
                                                 <p class="disc">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
-                                                </p>
+                                                He has worked as a ComverseOne PCAT expert, showcasing his in-depth knowledge and expertise in this area.                                    </p>
                                             </div>
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
-                                                <h6 class="title">UI / UX Design</h6>
+                                                <h6 class="title">Green Field Implementation of Kenan FX 2.0</h6>
                                                 <p class="disc">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
-                                                </p>
+                                                Dr. Raghuvanshi has been involved in the green field implementation of Kenan FX 2.0, demonstrating his capability in handling large-scale projects.                                               </p>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
-                                                <h6 class="title">North South New University</h6>
+                                                <h6 class="title">Expertise in Kenan FX Product Configuration</h6>
                                                 <p class="disc">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                                His prime areas of expertise include Kenan FX product configuration, rating, and Kenan FX 2.0 product installation.
                                                 </p>
                                             </div>
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
-                                                <h6 class="title">Wedding Photography Course</h6>
+                                                <h6 class="title">Integration with Various External Systems</h6>
                                                 <p class="disc">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
+                                                Dr. Raghuvanshi has worked extensively on integrating Kenan FX with various external systems like CRM, Payment Systems, NMS, and KIOSK using Kenan API-TS.
                                                 </p>
                                             </div>
                                             <div class="single-univercity-exp-4">
                                                 <span>Certificate of</span>
-                                                <h6 class="title">Apps Development Course</h6>
+                                                <h6 class="title">Knowledge of Kenan/Bp 12.0 Database and Processes:</h6>
                                                 <p class="disc">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc.
-                                                </p>
+                                                He possesses extensive knowledge of the Kenan/Bp 12.0 database, collections, rating, billing, payment, and journaling processes.                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -499,7 +487,7 @@
                                         <div class="col-lg-6">
                                             <div class="content-main">
                                                 <h2 class="title">
-                                                    Ideological Leader For <br> Youth Generation
+                                                   The Leader For <br> Youth Generation
                                                 </h2>
                                                 <p class="about-disc">
                                                     Viverra quisi integer portitor hac morbi nostra habitant varius
@@ -510,7 +498,7 @@
                                                     <div class="single-progress-area-h4 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                                         <div class="progress-top">
                                                             <p class="name">
-                                                                Social Astuteness
+                                                                Social Awards
                                                             </p>
                                                             <span class="parcent">
                                                                 85%
@@ -565,7 +553,7 @@
                                         <div class="col-lg-6">
                                             <!-- single tab content hear -->
                                             <div class="thumbnail">
-                                                <img src="assets/images/about/06-1.jpg" alt="">
+                                                <img src="assets/images/image-needed.png" alt="">
                                             </div>
                                             <!-- single tab content hear End -->
                                         </div>
@@ -657,42 +645,42 @@
                             <!-- single slider -->
                             <div class="swiper-slide">
                                 <div class="single-product-h3">
-                                    <img src="assets/images/product/20-1.jpg" alt="product">
+                                    <img src="assets/images/image-needed.png" alt="product">
                                 </div>
                             </div>
                             <!-- single slider end -->
                             <!-- single slider -->
                             <div class="swiper-slide">
                                 <div class="single-product-h3">
-                                    <img src="assets/images/product/21-1.jpg" alt="product">
+                                    <img src="assets/images/image-needed.png" alt="product">
                                 </div>
                             </div>
                             <!-- single slider end -->
                             <!-- single slider -->
                             <div class="swiper-slide">
                                 <div class="single-product-h3">
-                                    <img src="assets/images/product/22-1.jpg" alt="product">
+                                    <img src="assets/images/image-needed.png" alt="product">
                                 </div>
                             </div>
                             <!-- single slider end -->
                             <!-- single slider -->
                             <div class="swiper-slide">
                                 <div class="single-product-h3">
-                                    <img src="assets/images/product/23-1.jpg" alt="product">
+                                    <img src="assets/images/image-needed.png" alt="product">
                                 </div>
                             </div>
                             <!-- single slider end -->
                             <!-- single slider -->
                             <div class="swiper-slide">
                                 <div class="single-product-h3">
-                                    <img src="assets/images/product/08-1.jpg" alt="product">
+                                    <img src="assets/images/image-needed.png" alt="product">
                                 </div>
                             </div>
                             <!-- single slider end -->
                             <!-- single slider -->
                             <div class="swiper-slide">
                                 <div class="single-product-h3">
-                                    <img src="assets/images/product/09-1.jpg" alt="product">
+                                    <img src="assets/images/image-needed.png" alt="product">
                                 </div>
                             </div>
                             <!-- single slider end -->
@@ -729,9 +717,8 @@
                     <div class="rts-single-testimonials-h3 text-center">
                         <div class="top-area">
                             <img class="quote" src="assets/images/testimonials/quote-1.png" alt="Quote">
-                            <p class="disc">
-                                “Bibendum auctor enim mi aliquam porta himenaeos mollis ultricies nec. Justo nostra
-                                vestibulum litora purus laoreet leo blandit tincidunt mattis natoqu”
+                            <p class="disc" style="text-align: justify;">
+                            Dr. Kamlesh kumar Raghuwanshi expertise in Computer Science and the Telecom Billing Domain is unparalleled. His dedication to excellence and innovative approach make him an invaluable asset.
                             </p>
                             <div class="start-area">
                                 <i class="fas fa-star"></i>
@@ -742,13 +729,13 @@
                             </div>
                         </div>
                         <div class="client-profile-area">
-                            <img src="assets/images/testimonials/02-1.png" alt="Profile">
+                            <img src="assets/images/testimonials/rishi-sir.jpg" alt="Profile" style="height:100px; width:100px; border-radius: 50%;">
                             <div class="discription">
                                 <p class="name">
-                                    Thomas Adision
+                                Dr. Rishi M Bhatnagar
                                 </p>
                                 <span>
-                                    Social Worker
+                                Enterepnaur, Technology expert, Politician & Mentor
                                 </span>
                             </div>
                         </div>
@@ -760,9 +747,8 @@
                     <div class="rts-single-testimonials-h3 text-center">
                         <div class="top-area">
                             <img class="quote" src="assets/images/testimonials/quote-1.png" alt="Quote">
-                            <p class="disc">
-                                “Bibendum auctor enim mi aliquam porta himenaeos mollis ultricies nec. Justo nostra
-                                vestibulum litora purus laoreet leo blandit tincidunt mattis natoqu”
+                            <p class="disc" style="text-align: justify;" >
+                            Dr. Kamlesh kumar Raghuwanshi profound knowledge and expertise in the IT field are truly impressive. His dedication to his work and his innovative approach have greatly benefited our projects and initiatives.
                             </p>
                             <div class="start-area">
                                 <i class="fas fa-star"></i>
@@ -773,13 +759,13 @@
                             </div>
                         </div>
                         <div class="client-profile-area">
-                            <img src="assets/images/testimonials/03-1.png" alt="Profile">
+                            <img src="assets/images/testimonials/bhopindernath.jpg" alt="Profile" style="height:100px; width:100px; border-radius: 50%;">
                             <div class="discription">
                                 <p class="name">
-                                    Mark Adision
+                                Bhoopendra N Pandey
                                 </p>
                                 <span>
-                                    Social Worker
+                                Vice President
                                 </span>
                             </div>
                         </div>
@@ -791,9 +777,8 @@
                     <div class="rts-single-testimonials-h3 text-center">
                         <div class="top-area">
                             <img class="quote" src="assets/images/testimonials/quote-1.png" alt="Quote">
-                            <p class="disc">
-                                “Bibendum auctor enim mi aliquam porta himenaeos mollis ultricies nec. Justo nostra
-                                vestibulum litora purus laoreet leo blandit tincidunt mattis natoqu”
+                            <p class="disc" style="text-align: justify;">
+                            Dr. Kamlesh kumar Raghuwanshi expertise and dedication are unmatched. His contributions to our projects have been invaluable, showcasing his exceptional skills and commitment to excellence.
                             </p>
                             <div class="start-area">
                                 <i class="fas fa-star"></i>
@@ -804,13 +789,13 @@
                             </div>
                         </div>
                         <div class="client-profile-area">
-                            <img src="assets/images/testimonials/04-1.png" alt="Profile">
+                            <img src="assets/images/testimonials/shilendrapathak.PNG" alt="Profile" style="height:100px; width:100px; border-radius: 50%;">
                             <div class="discription">
                                 <p class="name">
-                                    Jone Adision
+                                Shailendra Pathak
                                 </p>
                                 <span>
-                                    Social Worker
+                                Secretary
                                 </span>
                             </div>
                         </div>
@@ -840,7 +825,7 @@
                     <!-- single post area start -->
                     <div class="rts-post-area-h2">
                         <a href="blog-details-1.html" class="thumbnail">
-                            <img src="assets/images/blog/15-1.jpg" alt="rts-blog-image">
+                            <img src="assets/images/image-needed.png" alt="rts-blog-image">
                         </a>
                         <div class="content-area">
                             <div class="icon-area">
@@ -863,7 +848,7 @@
                     <!-- single post area start -->
                     <div class="rts-post-area-h2">
                         <a href="blog-details-1.html" class="thumbnail">
-                            <img src="assets/images/blog/13-1.jpg" alt="rts-blog-image">
+                            <img src="assets/images/image-needed.png" alt="rts-blog-image">
                         </a>
                         <div class="content-area">
                             <div class="icon-area">
@@ -886,7 +871,7 @@
                     <!-- single post area start -->
                     <div class="rts-post-area-h2">
                         <a href="blog-details-1.html" class="thumbnail">
-                            <img src="assets/images/blog/14-1.jpg" alt="rts-blog-image">
+                            <img src="assets/images/image-needed.png" alt="rts-blog-image">
                         </a>
                         <div class="content-area">
                             <div class="icon-area">

@@ -46,7 +46,7 @@
                         <h6 class="title">
                             PHONE:
                         </h6>
-                        <a href="#">+8801010999999</a>
+                        <a href="#">+919810298704</a>
                     </div>
                     <div class="address single">
                         <h6 class="title">
@@ -491,9 +491,7 @@
                                                    The Leader For <br> Youth Generation
                                                 </h2>
                                                 <p class="about-disc">
-                                                    Viverra quisi integer portitor hac morbi nostra habitant varius
-                                                    tempor felissoc squaptent vestibulum lectus vel acmsan risus litora
-                                                    nibh velit pulvinar ornare porttitor consequat rutrum interdum
+                                                Dr. Kamlesh Kumar Raghuvanshi inspires and empowers the next generation with his innovative teaching and mentorship. His dedication to nurturing young talent and guiding them through the evolving landscape of technology makes him a pivotal figure for today’s youth.
                                                 </p>
                                                 <div class="progress-h4-area">
                                                     <div class="single-progress-area-h4 sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">

@@ -1,7 +1,76 @@
 @extends('layouts.header')
 
 @section('css')
+<style>
+        .section {
+            display: none; /* Hide all sections by default */
+        }
+        .active {
+            display: block; /* Show the active section */
+        }
+        .button {
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .button.active {
+            background-color: #007BFF;
+            color: black;
+        }
+      
+.event-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px; /* Set max width */
+    max-height: 600px; /* Set max height */
+    object-fit: cover; /* Crop the image if needed */
+    margin-bottom: 15px; /* Space between images and text */
+}
 
+/* Adjust layout to ensure event details appear above images */
+.inner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+.event-details {
+    text-align: center; /* Center the event name text */
+    margin-bottom: 15px; /* Space between event name and images */
+}
+
+/* Display images in a row with proper spacing */
+.row {
+    justify-content: center; /* Center the images in the row */
+}
+
+.col-lg-4, .col-md-6, .col-sm-12 {
+    display: flex;
+    justify-content: center; /* Center images within their columns */
+}
+.btn-primary {
+    color: black;
+    background-color: #FF390E;
+    border-color: #FF390E;
+    display: block;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+   
+}
+element.style {
+    background-color: #FF390E;
+    height: 50px;
+    width: 10px;
+    color: white;
+}
+
+</style>
 @endsection
 
 @section('body')
@@ -27,7 +96,7 @@
                                 <a href="#about">About Us</a>
                             </li>
                             <li class="three">
-                                <a href="#service">Work Area</a>
+                                <a href="#workarea">Work Area</a>
                             </li>
                           <li class="four">
                                 <a href="#test">Testimonials</a>
@@ -158,15 +227,16 @@
     <!-- cv area downlaod end -->
 
     <!-- rts service area start -->
-    <div class="rts-service-h4 rts-section-gap" id="service">
+    <div id="academics" class="section">
+    <div class="rts-service-h4 rts-section-gap">
         <div class="container">
             <div class="row">
-                <div  class="title-area-h3 text-center" >
+                <div class="title-area-h3 text-center">
                     <span class="pre-title">
                         What We Do
                     </span>
-                    <h2 class="title">
-                        Our  <span>Work Areas</span>
+                    <h2 class="title" id="academics">
+                        <span>Work Areas</span>
                     </h2>
                 </div>
             </div>
@@ -179,10 +249,10 @@
                                 <img src="assets/images/skill/icon/10-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                NGO
+                            Elections
                             </h5>
                             <p class="disc" style="text-align: justify;">
-                            Lokutthan Foundation is a prominent non-governmental organization dedicated to fostering social development and upliftment. The foundation aims to address the needs of underprivileged and marginalized communities through a range of impactful programs.                            </p>
+                            Dr. Kamlesh Kumar Raghuvanshi's academic and professional career is not just limited to his educational achievements. He has participated in various elections that impact academic and professional communities, showcasing his leadership skills, community engagement, and decision-making capabilities.                            </p>
                         </div>
                     </div>
                 </div>
@@ -195,10 +265,79 @@
                                 <img src="assets/images/skill/icon/11-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                                Politices BJP
+                                Professors (job)
                             </h5>
                             <p class="disc" style="text-align: justify;">
-                           Dr. Kamlesh kumar Reghuvanshi is an active and dedicated member of the Bharatiya Janata Party (BJP), contributing significantly to its initiatives and activities. His involvement with the party reflects his commitment to public service and the betterment of society through political engagement.
+                            Dr. Kamlesh Kumar Raghuvanshi is a distinguished professor at a prestigious institution, bringing over 11 years of extensive experience in the IT industry, specifically in the Telecom Billing Domain. His academic and professional journey is marked by a commitment to excellence in teaching, research, and community service.                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single service home three end -->
+                <!-- single service home three -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="single-service-h3">
+                        <div class="inner-content">
+                            <div class="logo">
+                                <img src="assets/images/skill/icon/12-1.svg" alt="icon">
+                            </div>
+                            <h5 class="title">
+                               NDTFO
+                            </h5>
+                            <p class="disc" style="text-align: justify;">
+                            Dr. Kamlesh Kumar Raghuvanshi is a key contributor to the National Data Science Task Force Organization (NDTFO), where he brings his extensive expertise in data science and IT to the forefront. His involvement with NDTFO underscores his commitment to advancing the field and leveraging data science to address complex societal challenges.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Social Section -->
+<div id="social" class="section">
+    <div class="rts-service-h4 rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="title-area-h3 text-center">
+                    <span class="pre-title">
+                        What We Do
+                    </span>
+                    <h2 class="title" id="social">
+                        <span>Work Areas</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row g-5 mt--10">
+                <!-- single service home three -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="single-service-h3">
+                        <div class="inner-content">
+                            <div class="logo">
+                                <img src="assets/images/skill/icon/10-1.svg" alt="icon">
+                            </div>
+                            <h5 class="title">
+                               RSS
+                            </h5>
+                            <p class="disc" style="text-align: justify;">
+                            Dr. Kamlesh kumar Reghuvanshi is a dedicated member of the Rashtriya Swayamsevak Sangh (RSS), playing a significant role in its activities and initiatives. His involvement reflects a deep commitment to the organization's mission of promoting Hindu cultural values and contributing to national unity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single service home three end -->
+                <!-- single service home three -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="single-service-h3">
+                        <div class="inner-content">
+                            <div class="logo">
+                                <img src="assets/images/skill/icon/11-1.svg" alt="icon">
+                            </div>
+                            <h5 class="title">
+                                NGO
+                            </h5>
+                            <p class="disc" style="text-align: justify;">
+                            Lokutthan Foundation is a prominent non-governmental organization dedicated to fostering social development and upliftment. The foundation aims to address the needs of underprivileged and marginalized communities through a range of impactful programs.
+
                             </p>
                         </div>
                     </div>
@@ -212,70 +351,190 @@
                                 <img src="assets/images/skill/icon/12-1.svg" alt="icon">
                             </div>
                             <h5 class="title">
-                               RSS
-                            </h5>
-                            <p class="disc"  style="text-align: justify;">
-                            Dr. Kamlesh kumar Reghuvanshi is a dedicated member of the Rashtriya Swayamsevak Sangh (RSS), playing a significant role in its activities and initiatives. His involvement reflects a deep commitment to the organization's mission of promoting Hindu cultural values and contributing to national unity.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single service home three end -->
-                <!-- single service home three -->
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="single-service-h3">
-                        <div class="inner-content">
-                            <div class="logo">
-                                <img src="assets/images/skill/icon/13-1.svg" alt="icon">
-                            </div>
-                            <h5 class="title">
-                               Manacle Mentor
-                            </h5>
-                            <p class="disc"  style="text-align: justify;">
-                            The Esteemed Mentor serves as a respected guide at Manacle, a dynamic company focused on innovative solutions and business growth. Their mentorship is instrumental in guiding the company's strategic direction and fostering professional development within the organization.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single service home three end -->
-                <!-- single service home three -->
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                    <div class="single-service-h3">
-                        <div class="inner-content">
-                            <div class="logo">
-                                <img src="assets/images/skill/icon/14-1.svg" alt="icon">
-                            </div>
-                            <h5 class="title">
-                                IBM (Technologies)
-                            </h5>
-                            <p class="disc"  style="text-align: justify;">
-                            Dr. Kamlesh kumar Reghuvanshi  has extensive experience with IBM’s suite of technologies, including artificial intelligence, cloud computing, data analytics, and blockchain. His deep understanding of these solutions enables him to implement and optimize IBM technologies effectively.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- single service home three end -->
-                <!-- single service home three -->
-                <div class="col-lg-4 col-md-6 col-sm-12 col-12" >
-                    <div class="single-service-h3">
-                        <div class="inner-content">
-                            <div class="logo">
-                                <img src="assets/images/skill/icon/15-1.svg" alt="icon">
-                            </div>
-                            <h5 class="title">
-                               Professor(CS)
+                               BJP
                             </h5>
                             <p class="disc" style="text-align: justify;">
-                            The Esteemed Professor contributes to the development and enhancement of the college’s curriculum. Their insights help ensure that the courses are up-to-date with industry trends and academic standards, preparing students for future careers.
+                            Dr. Kamlesh kumar Reghuvanshi is an active and dedicated member of the Bharatiya Janata Party (BJP), contributing significantly to its initiatives and activities. His involvement with the party reflects his commitment to public service and the betterment of society through political engagement.
                             </p>
                         </div>
                     </div>
                 </div>
-                <!-- single service home three end -->
             </div>
         </div>
     </div>
-    <!-- rts service area end -->
+</div>
+<!--industry-->
+<div id="industry" class="section">
+    <div class="rts-service-h4 rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="title-area-h3 text-center">
+                    <span class="pre-title">
+                        What We Do
+                    </span>
+                    <h2 class="title" id="social">
+                        <span>Work Areas</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row g-5 mt--10">
+                <!-- single service home three -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="single-service-h3">
+                        <div class="inner-content">
+                            <div class="logo">
+                                <img src="assets/images/skill/icon/10-1.svg" alt="icon">
+                            </div>
+                            <h5 class="title">
+                               Company Name
+                            </h5>
+                            <p class="disc" style="text-align: justify;">
+                            Dr. Kamlesh Kumar Raghuvanshi is a highly respected mentor at Manacle Technologies Pvt. Ltd., a leading IT solutions provider known for its innovative approaches and cutting-edge technologies.                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single service home three end -->
+                <!-- single service home three -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="single-service-h3">
+                        <div class="inner-content">
+                            <div class="logo">
+                                <img src="assets/images/skill/icon/11-1.svg" alt="icon">
+                            </div>
+                            <h5 class="title">
+                               Mentor
+                            </h5>
+                            <p class="disc" style="text-align: justify;">
+                            As a mentor at Manacle Technologies, Dr.Kamlesh Kumar Raghuvanshi provides strategic leadership and guidance to the company's teams. His insights and advice help shape the company's direction, ensuring that it stays at the forefront of technological advancements and industry trends.                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single service home three end -->
+                <!-- single service home three -->
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="single-service-h3">
+                        <div class="inner-content">
+                            <div class="logo">
+                                <img src="assets/images/skill/icon/12-1.svg" alt="icon">
+                            </div>
+                            <h5 class="title">
+                               Startup
+                            </h5>
+                            <p class="disc" style="text-align: justify;">
+                            Dr.Kamlesh Kumar Raghuvanshi offers valuable mentorship to startup founders and teams, providing strategic advice and insights that are crucial for the success of early-stage companies. His guidance helps startups navigate challenges, refine their business models, and develop effective strategies for growth.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- rts service area end -->
+ <!--events-->
+ <!-- resources/views/welcome.blade.php -->
+
+ <div class="rts-service-h4 rts-section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="title-area-h3 text-center">
+                <h2 class="title" id="social">
+                    <span> Event</span>
+                </h2>
+            </div>
+        </div>
+        <div class="row g-5 mt--10">
+            @if($latestEvent)
+                @php
+                    // Fetch images for the latest event ordered by creation time
+                    $images = DB::table('event_handling')
+                                ->where('event_id', $latestEvent->id)
+                                ->orderBy('created_at', 'DESC') // Or use 'updated_at' if you prefer
+                                ->limit(3)
+                                ->get();
+
+                    // Get the total number of images for the latest event
+                    $totalImages = DB::table('event_handling')
+                                     ->where('event_id', $latestEvent->id)
+                                     ->count();
+                @endphp
+
+                <div class="col-12">
+                    <div class="inner-content">
+                        <div class="event-details">
+                            <h5>{{ $latestEvent->name ?: 'No Name Provided' }}</h5>
+                        </div>
+                        <div class="row">
+                            @foreach($images as $image)
+                                @php
+                                    // Generate the full image URL
+                                    $image_url = asset(rtrim($latestEvent->base_path, '/') . '/' . $image->image_name);
+                                @endphp
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <img src="{{ $image_url }}" alt="Event Image" class="event-image">
+                                </div>
+                            @endforeach
+                        </div>
+                        @if($totalImages > 3)
+                            <a href="{{ route('events.show', $latestEvent->id) }}"  style="background-color:#FF390E; height:50px; border-radius: 5px; background-color: #FF390E; height: 50px;  border: 2px solid red; padding: 14px 80px; color: white;">More</a>
+                            <!-- <a href="{{ route('events.show',  $latestEvent->id ) }}" class="rts-btn btn-main-3 smooth-scroll-1" style="margin-left:50px; margin-top: 200px;">Back to Events</a> -->
+
+                        @endif
+                    </div>
+                </div>
+            @endif
+        </div>
+    </div>
+</div>
+
+ <!-- <div class="rts-service-h4 rts-section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="title-area-h3 text-center">
+                <h2 class="title" id="social">
+                    <span>Latest Event</span>
+                </h2>
+            </div>
+        </div>
+        <div class="row g-5 mt--10">
+            @if($latestEvent)
+                @php
+                    // Fetch images for the latest event
+                    $images = DB::table('event_handling')
+                                ->where('event_id', $latestEvent->id)
+                                ->orderBy('seq', 'ASC')
+                                ->limit(3)
+                                ->get();
+                @endphp
+
+                <div class="col-12">
+                    <div class="inner-content">
+                        <div class="event-details">
+                            <h3>{{ $latestEvent->name ?: 'No Name Provided' }}</h3>
+                        </div>
+                        <div class="row">
+                            @foreach($images as $image)
+                                @php
+                                    // Generate the full image URL
+                                    $image_url = asset(rtrim($latestEvent->base_path, '/') . '/' . $image->image_name);
+                                @endphp
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <img src="{{ $image_url }}" alt="Event Image" class="event-image">
+                                </div>
+                            @endforeach
+                        </div>
+                        @if(DB::table('event_handling')->where('event_id', $latestEvent->id)->count() > 3)
+                            <a href="{{ route('events.show', $latestEvent->id) }}" class="btn btn-primary">More</a>
+                        @endif
+                    </div>
+                </div>
+            @endif
+        </div>
+    </div>
+</div> -->
+
+<!--end evnts -->
+
 
     <!-- rts about kiills area -->
     <div class="rts-skill-area about-h3 rts-section-gapBottom" >
@@ -609,12 +868,12 @@
                         </div>
                         <!-- single-counter up -->
                         <!-- single-counter up -->
-                        <div class="single-counter-h3 text-center">
+                        <!-- <div class="single-counter-h3 text-center">
                             <div class="inner">
                                 <h3 class="animated fadeIn"><span class="counter animated fadeInDownBig">1.8</span></h3>
                                 <span class="exp-time">Done Work</span>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- single-counter up -->
                     </div>
                 </div>
@@ -894,6 +1153,31 @@
         </div>
     </div>
     <!-- rts blog area end -->
+@section('js')
+<script>
+    function toggleSection(sectionId, link) {
+        // Hide all sections
+        document.querySelectorAll('.section').forEach(section => {
+            section.classList.remove('active');
+        });
 
+        // Remove active class from all links
+        document.querySelectorAll('.dropdown a').forEach(a => {
+            a.classList.remove('active');
+        });
+
+        // Show the selected section
+        document.getElementById(sectionId).classList.add('active');
+
+        // Add active class to the clicked link
+        link.classList.add('active');
+    }
+
+    // Show the Academic section by default
+    document.addEventListener("DOMContentLoaded", function() {
+        toggleSection('academics', document.querySelector('.dropdown a'));
+    });
+</script>
+@endsection
 
 @endsection

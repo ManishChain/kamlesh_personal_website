@@ -16,6 +16,207 @@
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min-1.css">
     <link rel="stylesheet" href="assets/css/style-1.css">
     @yield('css')
+   <style>
+/* .footer-copyright-four {
+    padding-top: 10px;
+    border-top: 1px solid #212121;
+    padding-bottom: 0px;
+} */
+.header-one.three .logo-area {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.11);
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px 20px 32px;
+}
+/* .header-one.three .logo-area {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 0);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.11);
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px 20px 21px;
+} */
+    nav.main-nav ul li {
+    margin: 0 10px;
+}
+.dropbtn {
+  background-color: ;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: ;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Main dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Nested dropdowns */
+.nested-dropdown {
+  display: none;
+  position: absolute;
+  left: 100%; /* Position to the right of the parent item */
+  top: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  margin-left: 10px;
+}
+
+/* Style the links inside the nested dropdown */
+.nested-dropdown a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.nested-dropdown a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content */
+.show { display: block; }
+.show-nested { display: block; }
+
+        .dropdown-content, .nested-dropdown {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+   
+      
+        .section {
+            display: none; /* Hide all sections by default */
+        }
+        .active {
+            display: block; /* Show the active section */
+        }
+        .dropdown a {
+            padding: 10px 20px;
+            display: block;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+           
+            margin: 5px 0;
+        }
+        .dropdown a.active {
+           
+            color: black;
+        }
+        .footer-copyright-four {
+    padding-top: 60px;
+    border-top: 1px solid #212121;
+    /* padding-bottom: 60px; */
+}
+
+.ptb--100 {
+    padding: 30px 0 !important;
+}
+.footer-copyright-four {
+    /* padding-top: 60px; */
+    border-top: 1px solid #212121;
+    padding-bottom: 30px;
+}
+.mid-footer-wrapper-4 .social-inner ul li a {
+    padding: 20px 0;
+    border-top: 1px solid #212121;
+    border-right: 1px solid #212121;
+    border-left: 1px solid #212121;
+    display: block;
+    color: #fff;
+    width: 171px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Base styles for logo */
+.logo-area {
+    text-align: center; /* Center the logo horizontally */
+    padding: 20px; /* Add some padding around the logo */
+}
+
+.logo-area .thumbnail {
+    display: inline-block;
+}
+
+.logo-area img {
+    max-width: 100%; /* Ensure the logo scales with its container */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Remove fixed width to prevent stretching */
+}
+
+/* Responsive styles */
+@media (min-width: 1200px) {
+    .logo-area img {
+        width: 150px; /* Adjust width for large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-area img {
+        width: 120px; /* Adjust width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-area img {
+        width: 100px; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-area img {
+        width: 80px; /* Further adjust width for very small screens */
+    }
+}
+
+   
+</style>
 
 </head>
 
@@ -27,10 +228,20 @@
                 <div class="col-xl-8 col-lg-6 col-md-2 col-sm-0 col-6">
                     <nav class="main-nav d-xl-block d-none">
                         <ul id="nav">
-                            <li class="current"><a href="#home">Home</a></li>
-                            <li class=""><a href="#about">About</a></li>
-                            <li class=""><a href="#service">WorkAreas</a></li>
-                            <li class=""><a href="#portfolio">Portfolio</a></li>
+                        <li class="current"><a href="{{url('/')}}#home">Home</a></li> 
+                          <li class=""><a href="{{url('/')}}#about">About</a></li>                            
+    <div class="dropdown">
+  <button onclick="toggleDropdown()" class="dropbtn"  style="font-weight:bold;">Work Area</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="{{url('/')}}#academics" onclick="toggleSection('academics', this)" >Academic</a>
+    <a href="{{url('/')}}#social" onclick="toggleSection('social', this)">Social</a>
+    <a href="{{url('/')}}#industry" onclick="toggleSection('industry', this)">Industry</a>
+    <div id="industryDropdown" class="nested-dropdown">
+    </div>
+  </div>
+</div>
+                            <li class=""><a href="{{url('/')}}#portfolio">Portfolio</a></li>
+                           
                             <li class=""><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
@@ -64,7 +275,7 @@
         </div>
         <div class="logo-area">
             <a href="#" class="thumbnail">
-                <img src="assets/images/logo/The-Leader.svg" alt="logo-images">
+                <img src="http://127.0.0.1:8000/assets/images/logo/The-Leader.svg" alt="logo-images">
             </a>
         </div>
     </header>
@@ -78,7 +289,7 @@
                 <div class="col-lg-3">
                     <div class="footer-four-left footer-single-wized ptb--100 ptb_sm--50">
                         <a class="logo" href="index-three-1.html">
-                            <img src="assets/images/logo/The-Leader.svg" alt="logo-area">
+                            <img src="http://127.0.0.1:8000/assets/images/logo/TheLeader-logo-white.svg" alt="logo-area">
                         </a>
                         <p class="disc">
                         Dr. Kamlesh Kumar Raghuvanshi, with over 11 years of experience in the IT industry and a specialization in the Telecom Billing Domain, is dedicated to advancing knowledge and innovation in computer science. 
@@ -300,8 +511,86 @@
 
     <!-- main js hear -->
     <script src="assets/js/main-1.js"></script>
+    <script>
+/* Toggle between hiding and showing the main dropdown content */
+function toggleDropdown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function toggleNestedDropdown(event, nestedId) {
+  event.preventDefault(); // Prevent default link behavior
+  const nestedDropdown = document.getElementById(nestedId);
+  nestedDropdown.classList.toggle("show-nested");
+
+  // Close other nested dropdowns
+  const otherNestedDropdowns = document.querySelectorAll('.nested-dropdown');
+  otherNestedDropdowns.forEach(function(nested) {
+    if (nested !== nestedDropdown) {
+      nested.classList.remove('show-nested');
+    }
+  });
+}
+
+// Close the dropdowns if the user clicks outside of them
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn') && !event.target.matches('.dropdown-content a')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+
+    var nestedDropdowns = document.getElementsByClassName("nested-dropdown");
+    for (var j = 0; j < nestedDropdowns.length; j++) {
+      var openNestedDropdown = nestedDropdowns[j];
+      if (openNestedDropdown.classList.contains('show-nested')) {
+        openNestedDropdown.classList.remove('show-nested');
+      }
+    }
+  }
+}
+</script>
+<script>
+  function showSection(sectionId) {
+    // Sabhi sections ko hide kar do
+    document.querySelectorAll('.card-container').forEach(section => {
+      section.classList.add('hidden');
+    });
+
+    // Jo section select kiya hai, use show karo
+    document.getElementById(sectionId).classList.remove('hidden');
+  }
+</script>
+
+  
+
     @yield('js')
+  
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
